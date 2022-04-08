@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="247.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mailclient.controller.AccountAuthenticationFormController">
+   <children>
+      <AnchorPane prefHeight="504.0" prefWidth="230.0">
+         <children>
+            <ImageView fitHeight="546.0" fitWidth="396.0" layoutX="-177.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/uXUkvkz.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="emailTextField" layoutX="269.0" layoutY="188.0" onKeyTyped="#handleKeyTypedTextField" prefHeight="30.0" prefWidth="270.0" promptText="E-mail" />
+      <PasswordField fx:id="passwordTextField" layoutX="269.0" layoutY="225.0" onKeyTyped="#handleKeyTypedTextField" prefHeight="27.0" prefWidth="270.0" promptText="Пароль">
+         <font>
+            <Font size="8.0" />
+         </font></PasswordField>
+      <Button fx:id="loginButton" disable="true" layoutX="329.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#handleLoginButtonClicked" prefHeight="30.0" prefWidth="150.0" text="Войти" />
+      <Label layoutX="375.0" layoutY="135.0" text="Вход">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorLabel" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="269.0" layoutY="258.0" prefHeight="20.0" prefWidth="270.0" textFill="RED" />
+   </children>
+</AnchorPane>

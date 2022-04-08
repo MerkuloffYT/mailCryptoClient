@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+<AnchorPane fx:id="mainPane" prefHeight="829.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="subjectLabel" layoutX="85.0" layoutY="11.0" prefHeight="50.0" prefWidth="721.0" text="Тема Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor leo eu nulla dignissim, eleifend vulputate purus semper. Nullam pulvinar malesuada diam, et iaculis purus dignissim at. Nunc dolor mauris, venenatis ut nibh vel, eleifend dignissim odio. Sed eu ante massa. Curabitur sagittis quis nulla vel egestas. Etiam et magna condimentum, bibendum libero a, volutpat dui. Aliquam erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor leo eu nulla dignissim, eleifend vulputate purus semper. Nullam pulvinar malesuada diam, et iaculis purus dignissim at. Nunc dolor mauris, venenatis ut nibh vel, eleifend dignissim odio. Sed eu ante massa. Curabitur sagittis quis nulla vel egestas. Etiam et magna condimentum, bibendum libero a, volutpat dui. Aliquam erat volutpat." wrapText="true">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="letterCircle" fill="WHITE" layoutX="53.0" layoutY="80.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label fx:id="circleLetter" alignment="TOP_CENTER" layoutX="42.0" layoutY="64.0" prefHeight="29.0" prefWidth="19.0" text="K">
+         <font>
+            <Font name="JetBrains Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="fromNameLabel" layoutX="85.0" layoutY="60.0" prefHeight="17.0" prefWidth="573.0" text="Имя отправителя. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. " />
+      <Label fx:id="fromEmailLabel" layoutX="85.0" layoutY="80.0" opacity="0.8" prefHeight="17.0" prefWidth="573.0" text="from@gmail.com Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. " />
+      <Label fx:id="sentDateLabel" layoutX="690.0" layoutY="69.0" opacity="0.8" prefHeight="40.0" prefWidth="116.0" text="01.01.2020 в 20:25" wrapText="true" />
+      <WebView fx:id="contentWebView" layoutX="33.0" layoutY="121.0" prefHeight="540.0" prefWidth="773.0" />
+       <FlowPane fx:id="attachmentsPane" layoutX="33.0" layoutY="679.0" prefHeight="116.0" prefWidth="773.0" style="-fx-background-color: #f4f4f4;" />
+      <ImageView fx:id="backButton" fitHeight="32.0" fitWidth="29.0" layoutX="32.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/back.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="messageLabel" alignment="TOP_RIGHT" layoutX="32.0" layoutY="661.0" prefHeight="18.0" prefWidth="773.0" style="-fx-background-color: #f4f4f4 #f4f4f4;" textFill="#5b5b5b">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="isDecryptedLabel" layoutX="701.0" layoutY="61.0" prefHeight="17.0" prefWidth="105.0" underline="true">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:id="mainPane" prefHeight="742.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ListView fx:id="mailsListView" prefHeight="660.0" prefWidth="855.0" style="-fx-pref-height: 100vh;" />
+      <TextField fx:id="pageTextField" alignment="CENTER" editable="false" focusTraversable="false" layoutX="415.0" layoutY="668.0" prefHeight="25.0" prefWidth="27.0" text="1" />
+      <ImageView fx:id="nextPageButton" fitHeight="20.0" fitWidth="20.0" layoutX="451.0" layoutY="671.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prevPageButton" fitHeight="20.0" fitWidth="20.0" layoutX="385.0" layoutY="671.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../img/arrow.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

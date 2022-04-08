@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="anchorPane" prefHeight="50.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="letterCircle" fill="#b0daff" layoutX="30.0" layoutY="25.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label fx:id="circleLetter" alignment="TOP_CENTER" layoutX="18.0" layoutY="10.0" prefHeight="29.0" prefWidth="23.0" text="I">
+         <font>
+            <Font name="JetBrains Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="fromNameLabel" layoutX="64.0" layoutY="3.0" prefHeight="40.0" prefWidth="185.0" text="From Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi odio, pretium non commodo nec, facilisis sit amet arcu. Nulla interdum sapien a ex dapibus rutrum non ac dui. Sed sed vulputate ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nunc nec tincidunt ultricies. Nam lobortis lobortis quam, nec tincidunt leo blandit porttitor. Duis magna arcu, hendrerit id dui at, rutrum venenatis dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi odio, pretium non commodo nec, facilisis sit amet arcu. Nulla interdum sapien a ex dapibus rutrum non ac dui. Sed sed vulputate ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nunc nec tincidunt ultricies. Nam lobortis lobortis quam, nec tincidunt leo blandit porttitor. Duis magna arcu, hendrerit id dui at, rutrum venenatis dolor.">
+         <font>
+            <Font name="Courier New Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="subjectLabel" layoutX="260.0" layoutY="-2.0" prefHeight="50.0" prefWidth="426.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi odio, pretium non commodo nec, facilisis sit amet arcu. Nulla interdum sapien a ex dapibus rutrum non ac dui. Sed sed vulputate ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nunc nec tincidunt ultricies. Nam lobortis lobortis quam, nec tincidunt leo blandit porttitor. Duis magna arcu, hendrerit id dui at, rutrum venenatis dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi odio, pretium non commodo nec, facilisis sit amet arcu. Nulla interdum sapien a ex dapibus rutrum non ac dui. Sed sed vulputate ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nunc nec tincidunt ultricies. Nam lobortis lobortis quam, nec tincidunt leo blandit porttitor. Duis magna arcu, hendrerit id dui at, rutrum venenatis dolor.">
+         <font>
+            <Font name="Courier New Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLabel" alignment="CENTER" layoutX="684.0" layoutY="-2.0" prefHeight="50.0" prefWidth="117.0" text="01.01.2020  00:00">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
