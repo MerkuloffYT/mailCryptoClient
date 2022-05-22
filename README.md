@@ -1,22 +1,22 @@
 ### MAIL-клиент.
 Почтовый клиент с дополнительными возможностями подписи и шифрования сообщений.
 
-![1](screenshots/authentification.png)
+![1](authentification.png)
 
-![2](screenshots/reading.png)
+![2](reading.png)
 
-![3](screenshots/writing.png)
+![3](writing.png)
 
-![4](screenshots/send-mail.png)
+![4](send-mail.png)
 
 --------------------------------
 #### Шифрование и ЭЦП
 
 Написание сообщения с подписью и шифрованием при отправке:
-![4](screenshots/writing-crypto.png)
+![4](writing-crypto.png)
 
 Зашифрованное сообщение с файлами для расшифровки и проверки подписи:
-![5](screenshots/encrypted.png)
+![5](encrypted.png)
 
 Расшифрованное сообщение с проверенной подписью:
-![6](screenshots/reading-crypto.png)
+![6](reading-crypto.png)
